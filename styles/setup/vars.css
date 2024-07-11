@@ -1,4 +1,11 @@
 :root {
-    /* palate */
-    --clr1: 
+
+    /* background */
+    --clr-primary-base: #fff;
+    --clr-header: #292929;
+    /* --clr-bg:
+    --clr-hover: */
+
+    /* text */
+    --clr-primary-1: red;
 }
