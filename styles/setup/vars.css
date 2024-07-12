@@ -2,11 +2,15 @@
 
     /* background */
     --clr-primary-base: #fff;
+
     --clr-header: #292929;
     --clr-hover: #58C93A;
+    --clr-content-outline: #E1E0E0;
     
-    /* --clr-bg:
-
     /* text */
-    --clr-primary-1: red;
+    --clr-primary-1: #4F4E4E;
+    --clr-primary-2: #606060;
+    --clr-primary-3: #C2C1C1;
+    --clr-primary-4: #818181;
+    
 }

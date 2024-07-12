@@ -1,0 +1,40 @@
+.post .post-image {
+    box-shadow: inset 0 0 0 1px black, #0000001a
+    1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post .post-title {
+    margin-block-end: 3.625rem;
+
+    font-family: lato-bold, sans-serif;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    
+    color: var(--clr-primary-1);
+}
+
+.post .post-button {
+    padding: 7.5px 12.5px;
+    border: var(--clr-primary-3), 2px solid;
+    border-radius: 36px;
+    color: var(--clr-primary-3);
+    background-color: var(--clr-primary-base);
+}
+
+.post .post-button:hover {
+    color: var(--clr-hover);
+    border: var(--clr-hover), 2px solid;
+}
+
+.posts-navigation {
+    border-block-start: 1px solid var(--clr-content-outline);
+}
+
+.posts-navigation button {
+    margin: 30px;
+    font-size: 1.125em;
+    border: none;
+
+    color: var(--clr-primary-4);
+    background-color: var(--clr-primary-base);
+}

@@ -3,7 +3,7 @@
     grid-template-columns: 
     minmax(20px, 1fr)
     minmax(auto, 980px) 
-    minmax(20px, 1fr)
+    minmax(20px, 1fr);
 }
 
 .main-layout > *:not(.full) {
@@ -13,3 +13,25 @@
 .main-layout > .full {
     grid-column: 1 / -1;
 }
+
+/* main content */
+
+.main-content { 
+    border: 1px solid var(--clr-content-outline);
+}
+
+/* post layout */
+
+.post-layout {
+    columns: 2;
+    margin-block-start: 80px;
+    gap: 40px;
+    margin-block-end: 80px;
+}
+
+.post-layout > *:not(.card-image) {
+    margin-inline-end: 1.5625rem;
+}
+
+
+

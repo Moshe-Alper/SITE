@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -20,8 +22,24 @@ img {
     width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 1em;
+    line-height: 1.3;
+}
+
+p {
+    margin: 0 0 2.75em;
+    color: var(--clr-primary-2)
+}
+
 a {
-    font-family: lato-bold, sans-serif;;
+    font-family: lato-bold, sans-serif;
     color: var(--clr-primary-base);
     text-decoration: none;
 }
@@ -30,3 +48,8 @@ a:hover {
     color: var(--clr-hover);
 }
 
+button {
+    font-family: lato-bold, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
