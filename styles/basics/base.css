@@ -21,7 +21,12 @@ img {
 }
 
 a {
+    font-family: lato-bold, sans-serif;;
     color: var(--clr-primary-base);
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--clr-hover);
 }
 
