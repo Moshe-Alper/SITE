@@ -20,3 +20,35 @@
     padding: 0;
     list-style-type: none;
 }
+
+/* social icons */
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--clr-social-icon);
+  }
+
+.fa:hover {
+    color: var(--clr-primary-base);
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+}
+
+.fa-behance:hover {
+    background: #1769ff;
+}
+  
+.fa-dribbble:hover {
+    background: #ea4c89;
+}

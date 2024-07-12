@@ -4,6 +4,8 @@
 } 
 
 .main-header .logo{
+    pointer-events: none;
+
     font-family: eurofurence, sans-serif;
     font-size: 2.5em;
     color: var(--clr-primary-base);

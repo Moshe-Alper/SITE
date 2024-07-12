@@ -1,0 +1,23 @@
+.main-footer {
+    padding: 4.375rem 0;
+    text-align: center;
+    
+    background-color: var(--clr-footer);
+}
+
+.main-footer .logo{
+    margin-block-end: 2rem;
+
+    font-family: eurofurence, sans-serif;
+    font-size: 2.5em;
+    color: var(--clr-primary-0);
+}
+
+.main-footer ul {
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.footer-social a:not(:last-child) {
+    margin-inline-end: 1.875rem;
+  }

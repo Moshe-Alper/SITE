@@ -53,3 +53,11 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+small {
+    margin-block-end: 2.375rem;
+
+    font-family: lato-bold, sans-serif; 
+    font-size: 0.8125rem;
+    color: var(--clr-primary--1);
+}
