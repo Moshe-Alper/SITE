@@ -13,6 +13,17 @@
     align-items: center;
 }
 
+/* logo helper */
+.logo {
+    position: relative;
+}
+
+.logo::after {
+    content: ".";
+    position: absolute;
+    color: var(--clr-hover);
+}
+
 /* list helpers */
 
 .clean-list {
