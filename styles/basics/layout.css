@@ -23,14 +23,19 @@
 /* post layout */
 
 .post-layout {
-    columns: 2;
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr; 
     margin-block-start: 80px;
-    gap: 40px;
     margin-block-end: 80px;
 }
 
-.post-layout > *:not(.card-image) {
+.post-layout > :first-child {
+    grid-column: 1;
+}
+
+.post-layout > :not(:first-child) {
     margin-inline-end: 1.5625rem;
+    grid-column: 3;
 }
 
 

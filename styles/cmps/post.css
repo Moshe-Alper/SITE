@@ -1,6 +1,8 @@
 .post .post-image {
-    box-shadow: inset 0 0 0 1px black, #0000001a
-    1px 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 0 1px black, #0000001a 1px 1px 5px rgba(0, 0, 0, 0.1);
+
+    max-width: 100%;
+    height: auto;
 }
 
 .post .post-title {
@@ -9,16 +11,29 @@
     font-family: lato-bold, sans-serif;
     font-size: 1.75rem;
     text-transform: uppercase;
-    
+
     color: var(--clr-primary-1);
+
+    grid-row: 1;
 }
 
 .post .post-button {
+    width: fit-content;
+    
     padding: 7.5px 12.5px;
     border: var(--clr-primary-3), 2px solid;
     border-radius: 36px;
     color: var(--clr-primary-3);
     background-color: var(--clr-primary-base);
+}
+
+.post p {
+    grid-row: 2;
+}
+
+.post button {
+    grid-row: 3;
+
 }
 
 .post .post-button:hover {
