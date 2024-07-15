@@ -19,4 +19,7 @@
     --clr-primary-3: #C2C1C1;
     --clr-primary-4: #818181;
     
+    /* layout vars */
+    --nav-padding-block: 50px;
+    --nav-padding-inline: 45px;
 }

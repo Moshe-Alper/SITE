@@ -14,31 +14,39 @@
 
     color: var(--clr-primary-1);
 
-    grid-row: 1;
 }
 
 .post .post-button {
+    position: relative;
+
     width: fit-content;
+    grid-row: 3;
     
     padding: 7.5px 12.5px;
     border: var(--clr-primary-3), 2px solid;
     border-radius: 36px;
     color: var(--clr-primary-3);
     background-color: var(--clr-primary-base);
-}
 
-.post p {
-    grid-row: 2;
-}
-
-.post button {
-    grid-row: 3;
-
+    transition: color 0.3s, border 0.3s;
 }
 
 .post .post-button:hover {
+    padding-right: 30px;
     color: var(--clr-hover);
-    border: var(--clr-hover), 2px solid;
+    border: 2px solid var(--clr-hover);
+}
+
+.post .post-button:hover::after {
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    inset: 0 10px 0 auto; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    pointer-events: none; 
 }
 
 .posts-navigation {

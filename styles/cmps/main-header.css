@@ -30,7 +30,7 @@
 
 .main-header .main-nav > li {
     position: relative;
-    padding: 50px 45px;
+    padding: var(--nav-padding-block) var(--nav-padding-inline);
     width: 100%;
     height: 100%;
 }
