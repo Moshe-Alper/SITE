@@ -6,10 +6,7 @@
 }
 
 .post .post-title {
-    margin-block-end: 3.625rem;
-
     font-family: lato-bold, sans-serif;
-    font-size: 1.75rem;
     text-transform: uppercase;
 
     color: var(--clr-primary-1);
