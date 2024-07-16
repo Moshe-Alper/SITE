@@ -44,3 +44,30 @@
     background-color: var(--clr-hover);
 }
 
+
+.btn-toggle-menu {
+    display: none;
+    
+    font-size: 2rem;
+    color: white;
+    border: none;
+    padding: 0;
+    background-color: var(--clr-header);
+}
+
+
+.btn-toggle-menu .fa-bars {
+    display: inline-block;
+}
+
+.btn-toggle-menu .fa-times {
+    display: none;
+}
+
+.menu-open .btn-toggle-menu .fa-bars {
+    display: none;
+}
+
+.menu-open .btn-toggle-menu .fa-times {
+    display: inline-block;
+}

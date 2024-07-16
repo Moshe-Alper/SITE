@@ -11,6 +11,9 @@
 </head>
 
 <body class="main-layout">
+
+    <div class="main-screen" onclick="onToggleMenu()"></div>
+
     <header class="main-header full main-layout">
         <div class="header-container grid-column space-between align-center">
             <div class="logo">Blogin</div>
@@ -23,10 +26,14 @@
                 </ul>
             </nav>
             </nav>
+            <button class="btn-toggle-menu" onclick="onToggleMenu()">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </button>
         </div>
     </header>
     <main class="main-content">
-        
+
         <div class="post post-layout">
             <img src="http://unsplash.it/468/307" alt="post-image" class="post-image">
 
@@ -34,7 +41,8 @@
                 <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
                 <p class="post-text">
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
-                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Duis aute irure dolor in
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Duis aute irure
+                    dolor in
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
                 </p>
                 <button class="post-button">Continue Reading
@@ -44,17 +52,18 @@
 
         <div class="post post-layout">
             <img src="http://unsplash.it/468/308" alt="post-image" class="post-image">
-            
+
             <div class="grid-column">
 
-            <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
-            <p class="post-text">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
-                doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
-            </p>
-            <button class="post-button">Continue Reading 
-            </button>
+                <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="post-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Duis aute irure
+                    dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="post-button">Continue Reading
+                </button>
             </div>
         </div>
 
@@ -62,22 +71,23 @@
             <img src="http://unsplash.it/469/307" alt="post-image" class="post-image">
 
             <div class="grid-column">
-            <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
-            <p class="post-text">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
-                doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
-            </p>
-            <button class="post-button">Continue Reading
-            </button>
+                <h2 class="post-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="post-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Duis aute irure
+                    dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
+                </p>
+                <button class="post-button">Continue Reading
+                </button>
             </div>
 
         </div>
 
-<section class="posts-navigation grid-column space-between align-center main-content">
-    <button class="prev"><i class="fa-solid fa-arrow-left-long"></i>Previous</i></button>
-    <button class="next">Next <i class="fa-solid fa-arrow-right-long"></i></button>
-</section>
+        <section class="posts-navigation grid-column space-between align-center main-content">
+            <button class="prev"><i class="fa-solid fa-arrow-left-long"></i>Previous</i></button>
+            <button class="next">Next <i class="fa-solid fa-arrow-right-long"></i></button>
+        </section>
     </main>
 
     <footer class="main-footer full main-layout ">
@@ -88,9 +98,10 @@
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-behance"></a>
             <a href="#" class="fa fa-dribbble"></a>
-            </ul>
-  
+        </ul>
+
     </footer>
+    <script src="js/blogin.js"></script>
 </body>
 
 </html>
