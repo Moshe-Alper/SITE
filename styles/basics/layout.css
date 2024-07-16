@@ -20,8 +20,8 @@
 /* post layout */
 
 .post-layout {
-    display: grid;
-    grid-template-columns: 1fr 40px 1fr; 
+    display: block;
+    grid-template-rows: 1fr;
     margin-block-start: 80px;
     margin-block-end: 80px;
 }
@@ -34,6 +34,4 @@
     margin-inline-end: 1.5625rem;
     grid-column: 3;
 }
-
-
 

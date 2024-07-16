@@ -5,6 +5,11 @@
     grid-auto-flow: column;
 }
 
+.grid-row {
+    display: grid;
+    grid-auto-flow: row;
+}
+
 .grid-column.space-between {
     justify-content: space-between;
 }
