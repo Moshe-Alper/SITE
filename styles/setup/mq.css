@@ -10,8 +10,8 @@
         position: fixed;
         top: 0;
         right: 0;
-        
-  }
+
+    }
 
     .btn-toggle-menu {
         display: block;
@@ -36,28 +36,39 @@
     body.menu-open .main-nav {
         display: block;
         translate: 0;
+
         text-align: center;
         width: 100vw;
-        
+        align-content: space-around;
+        position: fixed;
+        inset: 0;
+        display: grid;
+        justify-content: center;
+
         border: black solid 1px;
 
     }
 
-    .logo {
-        align-self: self-start
+    body.menu-open .main-nav > li {
+        border: solid black 1px;
+        width: 100vh;
     }
 
-    .main-header::before {
-        content: none;
-    }
+.logo {
+    align-self: self-start
+}
 
-    .main-header .main-nav>li>a:hover::after {
-        content: none;
-    }
+.main-header::before {
+    content: none;
+}
 
-    body.menu-open .main-screen {
-        display: block;
-    }
+.main-header .main-nav>li>a:hover::after {
+    content: none;
+}
+
+body.menu-open .main-screen {
+    display: block;
+}
 
 
 }
