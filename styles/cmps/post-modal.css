@@ -1,0 +1,31 @@
+.post-details { 
+    background-color: var(--clr-primary-3);
+    text-align: center;
+} 
+/* can also be called dialog */
+
+.post-details:modal>form>article {
+    width: 40vw;
+    display: grid;
+    grid-template-rows: 1fr 30px 1fr;
+    background-color: var(--clr-primary-4);
+}
+
+.post-details:modal>form>article header {
+    font-size: 1.3em;
+}
+.post-email {
+    margin-block-end: 1em;
+}
+.s-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.s-grid button {
+    width: fit-content;
+    padding-inline: 2em;
+    justify-self: center;
+}
