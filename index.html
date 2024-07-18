@@ -45,7 +45,7 @@
                     dolor in
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="post-button">Continue Reading
+                <button class="post-button" onclick="onReadDetails()">Continue Reading
                 </button>
             </div>
         </div>
@@ -62,7 +62,7 @@
                     dolor in
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="post-button">Continue Reading
+                <button class="post-button" onclick="onReadDetails()">Continue Reading
                 </button>
             </div>
         </div>
@@ -78,7 +78,7 @@
                     dolor in
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
                 </p>
-                <button class="post-button">Continue Reading
+                <button class="post-button" onclick="onReadDetails()">Continue Reading
                 </button>
             </div>
 
@@ -89,6 +89,30 @@
             <button class="next">Next <i class="fa-solid fa-arrow-right-long"></i></button>
         </section>
     </main>
+
+
+    <dialog class="post-details">
+        <form>
+            <article role="presentation">
+                <header>
+                    <h3>Get access</h3>
+                    <button type="submit" formmethod="dialog" aria-label="Close" class="btn-close">
+                        X</button>
+                </header>
+                Join us to get access to the latest stories!
+                <footer>
+                    <div class="post-email">
+                        <label for="email">Enter your email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="s-grid">
+                        <button formmethod="dialog" class="s-secondary" type="submit">Cancel</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </footer>
+            </article>
+        </form>
+    </dialog>
 
     <footer class="main-footer full main-layout ">
         <div class="logo">Blogin</div>
